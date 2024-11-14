@@ -22,8 +22,8 @@ def load_models():
 
 
 # Create a dropdown to select the model
+st.write("Loading a model may take up to 2 minutes")
 model_name = st.selectbox("Select a model", load_models())
-
 
 # Load the selected text classification model and tokenizer
 def load_selected_model(model_name):
