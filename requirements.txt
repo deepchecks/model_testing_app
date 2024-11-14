@@ -1,2 +1,10 @@
 streamlit
-openai
+pyperclip
+tiktoken
+matplotlib
+pyarrow
+datasets
+transformers[torch]
+accelerate
+sentencepiece
+protobuf
